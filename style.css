@@ -1058,3 +1058,36 @@ footer {
         max-width: 100%;
     }
 }
+/* small div css */
+.small-div{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(253, 174, 143);
+    display: flex;
+    overflow: hidden; /* Ensure content stays inside the div */
+    position: relative;
+    animation: slideIn 12s linear infinite; /* Add animation */
+}
+.small-div img{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.number{
+    color: #e66a00;
+    font-size:30px;
+   margin-top: 20px;
+}
+.text{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+/* Keyframes for the right-to-left animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); /* Start outside the right side */
+    }
+    100% {
+        transform: translateX(-100%); /* Move fully to the left */
+    }
+}
