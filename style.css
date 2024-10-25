@@ -1061,7 +1061,7 @@ footer {
 /* small div css */
 .small-div{
     height: 70px;
-    width: 100%;
+    width: 1350px;
     background-color: rgb(253, 174, 143);
     display: flex;
     overflow: hidden; /* Ensure content stays inside the div */
