@@ -1091,3 +1091,24 @@ footer {
         transform: translateX(-100%); /* Move fully to the left */
     }
 }
+@media (max-width:1306px) {
+    .small-div{
+        height: 140px;
+        width: 1330px;
+        background-color: rgb(253, 174, 143);
+        display: flex;
+        overflow: hidden; /* Ensure content stays inside the div */
+        position: relative;
+        animation: slideIn 12s linear infinite; /* Add animation */
+    }
+    .number{
+        color: #e66a00;
+        font-size:20px;
+       margin-top: 20px;
+    }
+    .text{
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
